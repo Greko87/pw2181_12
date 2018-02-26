@@ -1,0 +1,27 @@
+body{
+	background: blue;
+	/*background: rgba(155,155,155,0.5);
+	background: #FF0000;*/
+	color: white;
+}
+
+header{
+	border: 1px solid black;
+	text-align: center;
+}
+
+header nav ul li{
+	background:  orange;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: inline-block; /*para  */
+	width: 90px;
+}
+
+header nav ul li:hover {
+	background:  black;
+	border: 1px solid orange;
+	border-radius: 5px;
+	display: inline-block; /*para  */
+	width: 90px;
+}
