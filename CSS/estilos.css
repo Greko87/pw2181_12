@@ -4,9 +4,17 @@ body{
 	background: #FF0000;*/
 	color: white;
 }
+footer{
+	border: 1px solid orange;
+	font-weight: bold;/*letra en negrita*/
+	padding: 50px;
+	text-align: center;
+}
 
 header{
 	border: 1px solid black;
+	/*o desde el main poniendole margin-top: 20;, es lo mismo */
+	margin-bottom: 20px;
 	text-align: center;
 }
 
@@ -15,6 +23,10 @@ header nav ul li{
 	border: 1px solid black;
 	border-radius: 5px;
 	display: inline-block; /*para  */
+	padding: 10px 20px;
+	/*margin: 0px 20px 0px 20px;*/
+	/*otra manera con margin right*/
+	margin-right: 20px;
 	width: 90px;
 }
 
@@ -24,4 +36,14 @@ header nav ul li:hover {
 	border-radius: 5px;
 	display: inline-block; /*para  */
 	width: 90px;
+}
+
+main article{
+	border: 1px dashed black;
+	/*display inline-block ayuda a que las cajas esten juntas (articleS)*/
+	display: inline-block;
+	/*vertial-align: top; nos ayuda a que el texto inicie desde 
+	la parte superior*/
+	vertical-align: top;
+	width: 32.90%
 }
