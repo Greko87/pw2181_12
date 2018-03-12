@@ -61,8 +61,33 @@ header nav ul li{
 	text-align: right;
 	padding-right: 142px;
 }
+#terceraseccion article{
+	display: inline-block;
+	margin-right: 4px;
+	vertical-align: top;
+	width: 23%;
+}
+#terceraseccion article img{
+	/*acomodamos la alineacion vertical de la imagen*/
+	vertical-align: middle;
+}
+/*Para los colores www.imgr.co  para conocer el color de sus hexadecimal */
+#terceraseccion article input{
+	border-radius: 5px;
+}
+#terceraseccion article input[type="button"]{
+	background: #A4CD28;
+	/*border-radius: 5px;*/
+	color: white;
+}
+.colorazul{
+	color: #629ad4;
+}
 .colorrosa{
 	color: #FF0099;
+}
+.colorverde{
+	color: #8bc500;
 }
 .letramediana{
 	font-size: 2em;
