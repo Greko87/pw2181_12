@@ -1,0 +1,32 @@
+/*etiquetas principales*/
+
+/*ID*/
+#primeraseccion{
+
+}
+ #primeraseccion article{
+
+}
+#segundaseccion{
+
+}
+#terceraseccion{
+
+}
+/*combinacion de id*/
+
+/*Clases*/
+.colorblanco{
+	color: white;
+}
+.colorgris{
+	color: grey;
+}
+.letragrande{
+	font-size: 1.5em;
+}
+.letramayuscula{
+}
+.nito{
+	font-weight: bold;
+}
