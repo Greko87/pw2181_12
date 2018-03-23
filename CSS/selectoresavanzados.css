@@ -1,0 +1,44 @@
+/*imagen con atributo alt*/
+img[alt]{
+	border:5px solid blue;
+}
+img[src="img/HTML5logo.png"]{
+	word-wrap: 400px;
+}
+/*. ^ */
+/*imagen con atributo SRC con el inicio de la cadena*/
+img[src^="img/"]{
+	width: 150px;
+}
+/*imagen con atributo SRC con el final de la cadena*/
+img[src$="png"]{
+	width: 250px;
+}
+/*imagen con atributo SRC en cualquier parte de la cadena*/
+img[src*="mg/"]{
+	width: 100px;
+}
+/*el caracter ~ indica que estos seleectores estan separados por espacios*/
+article[class~="resaltado"]{
+	border: 1px dashed blue;
+}
+article[class~="archivo"]{
+	border: 1px dashed red;
+}
+article[class~="ingles"]{
+	border: 1px dashed green;
+}
+/*el atributo class/id es una lista de valores separados por guiones */
+article[class|="ingles"]{
+	text-align: center;
+}
+/*selector de secundarios,seleccionar solamente las <> que se encuentran inmediatamente
+despues del <DIV>*/
+/*Solo hijos directos de DIV*/
+div > p{
+	color: blue;
+}
+/*todos los elementos <p> seran seleccionados*/
+div p{
+	color: red;
+}
