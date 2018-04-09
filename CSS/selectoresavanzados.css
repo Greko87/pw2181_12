@@ -42,3 +42,42 @@ div > p{
 div p{
 	color: red;
 }
+
+/*Seleccionar solo el elemento<p> que esta inmediatamente despues del elemento<h2>
+Se llama: Hermano adyacente
+*/
+h2 + p {
+	color: green;
+}
+/*Seleccionar todos los elementos de <p> del elemento especificado
+Se llama: hermano General*/
+h2 ~ p{
+	color: gray;
+}
+
+/*Poner en color rojo el texto de las secciones menos el id="referencias"*/
+section:not(#referencias){
+	color: hotpink;
+}
+
+/*Numeros ordinales*/
+li:nth-child(odd){ /*Impares*/
+	color: green;
+}
+
+li:nth-child(even){ /*Pares*/
+	color: blue;
+}
+
+li:nth-child(5){ /*Quinto Elemento*/
+	color: red;
+}
+
+li:nth-last-child(2){ /*1 elemento del final, 2 elemento del final(penultimo)*/
+	color: green;
+}
+
+p:first=line{
+	font-weight: bold;
+}
+
