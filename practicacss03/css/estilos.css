@@ -1,32 +1,128 @@
-/*etiquetas principales*/
+body {
+    background: #2B2B2B;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin: 0px auto;
+    max-width: 1024px;
+    min-width: 1024px;
+}
 
-/*ID*/
-#primeraseccion{
+header {
+    background: #F0F0F0;
+    display: inline-block;
+}
 
+header input[type="search"] {
+    background: #EEEEEE;
+    border: 1px solid #E2E2E2;
+    margin: 10px 20px;
+    padding: 5px 0px;
+    text-align: right;
+    vertical-align: top;
+    width: 15%;
 }
- #primeraseccion article{
 
+#firstSection {
+    border-bottom: 1px solid #303030;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
-#segundaseccion{
 
+#firstSection article {
+    display: inline-block;
+    height: 275px;
+    margin-right: -5px;
+    padding: 21px 4.5px;
+    vertical-align: top;
+    width: 19%;
 }
-#terceraseccion{
 
+#firstSection ul li {
+    color: #8F8F8F;
+    display: block;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 10px;
+    text-decoration: none;
 }
-/*combinacion de id*/
 
-/*Clases*/
-.colorblanco{
-	color: white;
+#logo {
+    width: 100%;
 }
-.colorgris{
-	color: grey;
+
+#navImg {
+    margin-bottom: 25px;
+    width: 80%;
 }
-.letragrande{
-	font-size: 1.5em;
+
+#thirdSection article {
+    color: #8F8F8F;
+    display: inline-block;
+    margin: 0px 20px;
+    padding-bottom: 20px;
+    vertical-align: top;
+    width: 29%;
 }
-.letramayuscula{
+
+#thirdSection ul li {
+    display: block;
+    padding-bottom: 5px;
+    text-decoration: none;
 }
-.nito{
-	font-weight: bold;
+
+#secondSection {
+    text-align: right;
+}
+
+#secondSection article {
+    border-bottom: 1px dashed #8F8F8F;
+    display: inline-block;
+    margin: 20px;
+    padding-bottom: 20px;
+    width: 29%;
+}
+
+#secondSection article img {
+    width: 80%;
+}
+
+.bigFont {
+    font-size: 1.5em;
+}
+
+.blueColor {
+    color: #496D80;
+}
+
+.boldFont {
+    color: white;
+    font-weight: bold;
+}
+
+.greenColor {
+    background: #B4D052;
+}
+
+.grayColor {
+    background: #545454;
+    color: #9E9E9E;
+}
+
+.lightGrayColor {
+    background: #E4E4E4;
+    color: #787878;
+}
+
+.whiteColor {
+    color: white;
+}
+
+.redColor {
+    background: #D42D3F;
+}
+
+.rightAlign {
+    margin-top: 30px;
+    text-align: right;
 }
