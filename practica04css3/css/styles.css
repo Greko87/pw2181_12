@@ -1,0 +1,158 @@
+body {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin: 0px auto;
+    max-width: 1024px;
+    min-width: 1024px;
+}
+
+footer {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+header {
+    border-bottom: 1px dashed darkgrey;
+    display: inline-block;
+    height: 170px;
+    margin: 20px 0px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+header nav ul {
+    margin: 20px;
+    padding: 20px 5px;
+}
+
+header nav ul li {
+    color: black;
+    font-family: 'Baloo', cursive;
+    font-size: 1.2em;
+    margin-right: 15px;
+    padding-bottom: 5px;
+}
+
+nav {
+    width: 70%;
+}
+
+ul li {
+    display: inline-block;
+}
+
+#bike {
+    width: 100%;
+}
+
+#buy {
+    left: -100px;
+    position: relative;
+    top: -80px;
+    width: 50px;
+}
+
+#credits {
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.2em;
+    position: relative;
+    top: -15px;
+}
+
+#descriptionArticle {
+    padding: 20px 0px;
+}
+
+#firstSection {
+    margin-left: 20px;
+    vertical-align: top;
+    width: 58%;
+}
+
+#footerSection {
+    margin: 20px 0px;
+}
+
+#footerSection article {
+    display: inline-block;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+#footerSection article p:first-of-type {
+    border-top: 1px solid darkgrey;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+#footerSection article:not(#lastArticle) {
+    width: 15%;
+}
+
+#footerSection article p {
+    font-family: 'Slabo 27px', serif;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+}
+
+#goToShop {
+    left: -90px;
+    position: relative;
+    top: -120px;
+    width: 150px;
+}
+
+#lastArticle {
+    width: 23%;
+}
+
+#logo {
+    margin-left: 20px;
+}
+
+#textArticle {
+    border-bottom: 1px dashed darkgrey;
+}
+
+#secondSection {
+    width: 38%;
+}
+
+#years {
+    margin-top: -100px;
+    width: 160px;
+}
+
+.bigFont {
+    font-family: 'Baloo', cursive;
+    font-size: 4em;
+}
+
+.blackColor {
+    color: black;
+}
+
+.greenColor {
+    color: #73F33D;
+    margin: 0px;
+    margin-top: -40px;
+}
+
+.headerIcon {
+    margin-left: 5px;
+    width: 30px;
+}
+
+.imgWidth {
+    width: 47%;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.toRight {
+    float: right;
+}
