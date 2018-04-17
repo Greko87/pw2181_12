@@ -1,0 +1,67 @@
+/*jugar con las imagenes con border radius*/
+
+body{
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 1024px;
+}
+
+header{
+	background: white;
+    display: inline-block;
+}
+header articles{
+	display: inline-block;
+}
+header ul li{
+	color: black;
+	display: inline-block;
+	margin-right: 2px;
+	padding-left: 25px;
+	padding-bottom: 40px;
+}
+#titulo{
+	padding-left: 95px;
+}
+#primeraseccion img{
+	border-radius: 45%;
+	display: inline-block;
+	width: 33%;
+}
+#primeraseccion article{
+	display: inline-block;
+	width: 33%;
+	text-align: right;
+}
+footer articles{
+	vertical-align: top;
+}
+.colorblanco{
+	color: white;
+}
+.colorgrey{
+	color: grey;
+}
+.colornegro{
+	color: black;
+}
+.letrachica{
+	font-size: 12px;
+}
+.letramediana{
+	font-size: 16;
+}
+.letragrande{
+	font-size: 24px;
+}
+.letratitulo{
+	font: arial;
+}
+.letraparrafo{
+	font: arial;
+}
+
+.nito{
+	font-weight: bold;
+}
+
