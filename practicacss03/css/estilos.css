@@ -22,6 +22,7 @@ header input[type="search"] {
     vertical-align: top;
     width: 15%;
 }
+<<<<<<< HEAD
 
 #firstSection {
     border-bottom: 1px solid #303030;
@@ -126,3 +127,109 @@ header input[type="search"] {
     margin-top: 30px;
     text-align: right;
 }
+=======
+
+#firstSection {
+    border-bottom: 1px solid #303030;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#firstSection article {
+    display: inline-block;
+    height: 275px;
+    margin-right: -5px;
+    padding: 21px 4.5px;
+    vertical-align: top;
+    width: 19%;
+}
+
+#firstSection ul li {
+    color: #8F8F8F;
+    display: block;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+#logo {
+    width: 100%;
+}
+
+#navImg {
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+#thirdSection article {
+    color: #8F8F8F;
+    display: inline-block;
+    margin: 0px 20px;
+    padding-bottom: 20px;
+    vertical-align: top;
+    width: 29%;
+}
+
+#thirdSection ul li {
+    display: block;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+#secondSection {
+    text-align: right;
+}
+
+#secondSection article {
+    border-bottom: 1px dashed #8F8F8F;
+    display: inline-block;
+    margin: 20px;
+    padding-bottom: 20px;
+    width: 29%;
+}
+
+#secondSection article img {
+    width: 80%;
+}
+
+.bigFont {
+    font-size: 1.5em;
+}
+
+.blueColor {
+    color: #496D80;
+}
+
+.boldFont {
+    color: white;
+    font-weight: bold;
+}
+
+.greenColor {
+    background: #B4D052;
+}
+
+.grayColor {
+    background: #545454;
+    color: #9E9E9E;
+}
+
+.lightGrayColor {
+    background: #E4E4E4;
+    color: #787878;
+}
+
+.whiteColor {
+    color: white;
+}
+
+.redColor {
+    background: #D42D3F;
+}
+
+.rightAlign {
+    margin-top: 30px;
+    text-align: right;
+}
+>>>>>>> 3aed4a76da656ac246de1935e2cb7a681fb8f94b
