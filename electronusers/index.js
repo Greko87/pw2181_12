@@ -1,4 +1,4 @@
-var inicia = function(){
+var $ = require('jquery');{
 	//JSON=JavaScript Object Notation
 	
 	var nuevo = function(){

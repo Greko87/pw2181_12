@@ -18,7 +18,7 @@ function muestraPantallaPrincipal(){
 		slashed: true;
 	}));
 	//clic derecho, inspeccionar en chrome
-	PantallaPrincipal.webContents.openDevTools();
+	//PantallaPrincipal.webContents.openDevTools();
 	PantallaPrincipal.show();
 }
 app.on('ready',muestraPantallaPrincipal);
