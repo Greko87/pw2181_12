@@ -31,7 +31,7 @@ var inicioApp = function(){
 	});	
 	}
 	var buscarUsuario = function(){
-		var $("#txtNombreUsuario").val();
+		var usuario = $("#txtNombreUsuario").val();
 		var parametros = "opc=buscarUsuario"+
 						"&usuario="+usuario+
 						"&aleatorio="+Math.random();
@@ -61,9 +61,71 @@ var inicioApp = function(){
 		if(tecla.which == 13){
 			buscarUsuario();
 		}
-
 	}
+	var Guardar = function(){
+		var usuario=$("#txtNombreUsuario").val();
+		var nombre=$("#txtNombre").val();
+		var clave=$("#txtClaveUsuario").val();
+		var parametros="opc=guardarUsuario"+
+						"&usuario="+usuario+
+						"&clave="+clave+
+						"&aleatorio="+Math.random();
+		if(usuario != "" && nombre !=""&& clave != ""){
+			$.ajax({
+		cache:false,//desactivando el cache
+		type: "POST",
+		dataType: "json",
+		url: "php/guardarusuario.php",
+		data: parametros,
+		success: function(response){
+			if(response.respuesta == true){
+				alert("Guardado correctamente");
+				$("#frmUsuarios > input").val("");
+			}else{
+				alert("Ocurrio un error, intente de nuevo mas tarde");
+			}
+		},
+		error: function(xhr,ajaxOptions,thrownError){
+		}
+	});	
+
+		}else{
+			alert("Llene todos los campos correspondientes")
+		}
+	}
+
+	var Borrar = function(){
+		var usuario = $("txtNombreUsuario").val();
+		var nombre = $("txtNombre").val();
+		var pregunta = prompt("Esta seguro de borrar a "+nombre+"? (si/no)","no");
+		if(pregunta != null && pregunta == "si"){
+			//aqui va el ajax
+			$.ajax({
+		cache:false,//desactivando el cache
+		type: "POST",
+		dataType: "json",
+		url: "php/borrarusuario.php",
+		data: parametros,
+		success: function(response){
+			if(response.respuesta == true){
+				alert("Usuario Borrado Correctamente");
+				
+			}else{
+				alert("Ocurrio un error, intente de nuevo mas tarde");
+			}
+		},
+		error: function(xhr,ajaxOptions,thrownError){
+		}
+	});	
+
+		}else{
+			alert("Error...")
+		}
+
+		}
 	$("#btnAceptar").on("click",Aceptar);
 	$("#txtNombreUsuario").on("keypress",teclaNombreUsuario);
+	$("#btnGuardar").on("click",Guardar);
+	$("#btnBorrar").on("click",Borrar);
 }
 $(document).ready(inicioApp);
